@@ -1,0 +1,21 @@
+.about{
+    margin-left: 25%;
+    padding: 0;
+    width: 50%;
+    text-align:justify;
+}
+.about h3{
+    height: auto;
+    width: auto;
+    margin-bottom: -18px;
+    font-size: large;
+    color: black;
+    font-weight: 700;
+}
+.about h4{
+    color: orangered;
+}
+.about hr{
+    border: 2px solid #000;
+   
+}

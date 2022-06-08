@@ -1,0 +1,60 @@
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark" >
+        <div class="container-fluid">
+          <a class="navbar1" href="#">
+              <img src="https://icons.iconarchive.com/icons/dembsky/social-store/128/vimeo-shop-icon.png" alt="">
+            </a>
+          <div class="navbar-brand navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 1.5vw;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" routerLink="Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" routerLink="Contact">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" routerLink="About">About Us</a>
+              </li>
+              <li class="nav-item dropdown" id="acount">
+                <a class="nav-link dropdown-toggle" routerLink=""id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Acount
+                </a>
+                <ul class="dropdown-menu bg-transparent border-0  fs-4" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item"  [routerLink]="['login']" routerLinkActive="active" >Login</a></li>
+                  <li><a class="dropdown-item" routerLink="register">Registration</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="cont">
+        <h1>Properties to buy in Mumbai</h1><br><br>
+        <p>Yahan Search Khatam Karo</p>
+      </div><br>
+      <div class="bsr">
+        <nav>
+          <ul>
+            <li><a href="#" >BUY</a></li>
+            <li><a routerLink="#">RENT</a></li>
+            <li><a href="#">SELL</a></li>
+            <li><a routerLink="#">PLOTS</a></li>
+          </ul>
+          
+        </nav>
+        <form class="d-flex">
+          <select class="rounded-start border-0 w-25 p-2" value="city" name="city" id="city">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Pune">Pune</option>
+            <option value="Bangaluru"> Bangaluru </option>
+            <option value="Noida">Noida</option>
+          </select>
+          <input class="form-control " type="search" placeholder="Search for locality, landmark, proect, or builder" aria-label="Search">
+          <button class="btn btn-outline" type="search"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+        </form>
+    </div>
+</header>
+
+
+
+<br><br><br>

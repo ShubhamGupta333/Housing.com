@@ -1,0 +1,65 @@
+<div class="wrapper">
+    <div class="title">
+       Login Form
+    </div>
+
+    <form  [formGroup]="loginForm"  (ngSubmit)="showData()">
+      <div class="field">
+          <input type="email" id="email" name="email" formControlName="user" required>
+          <label>Email Address</label>
+          <br>
+         <span style="font-style:italic ; color: red;" *ngIf="user && user.invalid">This field is required</span>
+         <br><br>
+
+       </div><br>
+       <div class="field">
+          <input type="password" id="password" name="passwod"  formControlName="pass" required>
+          <label>Password</label><br>
+          <span style="font-style:italic ; color: red;" *ngIf="pass && pass.invalid">This field is required</span>
+          <br><br>
+       </div><br>
+       <div class="content">
+          <div class="checkbox">
+             <input type="checkbox" id="remember-me" value="true" name="check">
+             <label for="remember-me">Remember me</label>
+          </div>
+          <div class="pass-link">
+             <a href="#">Forgot password?</a>
+          </div>
+       </div >
+          <div class="field">
+            <button [disabled]="loginForm.invalid">Login</button>
+            <!-- <button onclick="validate()">Login</button> -->
+         </div>
+          
+       <div class="signup-link">
+          Not a member? <a href="register">Signup now</a>
+       </div>
+    </form>
+ </div>
+ <!-- <script>
+     function validate(){
+    obj ={
+        pass1:"1234567890" 
+    }
+    var pass=document.getElementById("password");
+    // document.write(pass.value.length);
+    if(pass.value.length < 15 &&  pass.value.length > 8){
+        if(pass.value == obj.pass1){
+        alert("login successfully");
+        return false;
+        }else{
+            alert(" plese enter right password");
+        }
+    }
+    else if(pass.value.trim()==""){
+        alert("do not enter spases as password");
+        return false;
+    }
+    else{
+
+        alert(" plese enter password 8 to 15 digit");
+        return true;
+    }
+}
+ </script> -->

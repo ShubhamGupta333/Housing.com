@@ -1,0 +1,17 @@
+/* 
+.container{
+    display: grid;
+    grid-template-areas: 
+    'header header header '
+    'router router router '
+    'footer footer footer ';
+}
+.header{
+    grid-area: header;
+}
+.router{
+    grid-area: router;
+}
+.footer{
+    grid-area: footer;
+} */

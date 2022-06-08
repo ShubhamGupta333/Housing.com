@@ -1,0 +1,21 @@
+.box{
+
+    /* margin: auto; */
+    /* text-align: center; */
+    border: 2px solid black;
+    width: 27%;
+    margin: auto;
+}
+
+.image1:hover{
+    height: 250px;
+}
+/* .image1:hover:target .image4{
+    height: 50px;
+} */
+.image4:hover {
+    height: 250px;
+}
+/* .image4:hover:target .image1{
+    height: 50px;
+} */

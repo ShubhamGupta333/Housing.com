@@ -1,0 +1,69 @@
+/* contact */
+.container-fluid{
+    width: 100%; 
+    /* height: ; */
+    /* border: 2px solid black; */
+    background-color: #ededf3;
+    text-align: justify;
+    padding: 5rem;
+    /* border: 2px solid black; */
+
+}
+#all{
+    margin: auto;
+    /* border: 2px solid black; */
+    width: 25%;
+    height: 20rem;
+    background-color: #fff;
+    border-radius: 10%;
+    padding-top: 2rem;
+    
+}
+.col-8 h2{
+    margin-top: 3.5rem;
+}
+.container-fluid h2{
+    font-size: x-large;
+    font-weight: 700;
+    /* text-align: center; */
+}
+.container-fluid p{
+    font-size: 1.4rem;
+    text-align: left;
+}
+.container-fluid img{
+    margin-top: 0.7rem;
+    margin-bottom: 0.5rem;
+    height: 35px;
+    width: 40px;
+}
+
+.container-fluid #img{
+    text-align: center;
+    justify-items: center;
+    width: 80px;
+    height: 70px;
+    margin-top: 4rem;
+    border: 6px solid #cec6c6;
+    border-radius: 50%;
+}
+.contact{
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 50%;
+    /* height: auto; */
+}
+.contact .c-child{
+    font-size: x-large;
+    text-align: center;
+    padding: 2rem 1rem;
+    height: auto;
+    width: 30rem;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+.contact .c-child input{
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+/* End Contact */

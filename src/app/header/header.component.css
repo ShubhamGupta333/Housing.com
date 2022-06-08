@@ -1,0 +1,111 @@
+header{
+    /* border: 2px solid red; */
+    padding-bottom: 18.5rem;
+}
+.bsr::before{
+    content: "";
+    background: url("../../assets/image/Capture1.PNG") center;
+    background-size: 100% 100%;
+    text-align: center;
+    color: #222;
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 70%;
+}
+.container-fluid{
+    /* border: 2px solid black; */
+    position: fixed;
+    top: 2px;
+    left: 0px;
+
+}
+header nav .container-fluid .navbar1{
+
+    width: 100px;
+    height: 60px;
+}
+header nav .container-fluid a{
+    color: #0f0529;
+    font-weight: 700;
+}
+header nav .container-fluid a img{
+    width: 100%;
+    height: 100%;
+}
+.navbar-brand{
+    margin-left: 20px;
+    margin-right: -15px;
+}
+.cont{
+    /* border: 2px solid red; */
+
+    margin-top: 60px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+}
+.cont h1{
+    font-size: 50px;
+    font-weight: bold;
+    color:#161672 ;
+}
+.cont p{
+    margin-top: 80px;
+    background-color: #0a0a0a56;
+    background-size: 50vw;
+    font-size: 25px;
+    color: #fafcff;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    padding:10px;
+}
+.bsr{
+    /* border: 2px solid #222; */
+    width: 45%;
+    margin: auto;
+    background: #0f0f0f8c;
+    padding: 1rem;
+
+    
+}
+.bsr nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+
+}
+.bsr nav ul li{
+    font-size:medium;
+    margin: 0 50px;
+}
+.bsr nav ul li a{
+    color: white;
+    font-weight: 500;
+}
+form{
+    position: relative;
+    /* border: 2px solid #222; */
+    width: 50rem;
+    height: 3.7rem;
+    margin: auto;
+}
+form .btn{
+    width: 154px;
+    color: #fff;
+    background-color: rgb(56, 165, 56);
+}
+header nav #acount{
+    color: #fff;
+    list-style: none;
+    left: 1230px;
+}
+/* @media (max-width:1250px){
+    html{
+        font-size: 90%;
+    }
+} */
